@@ -1,3 +1,30 @@
+## 感想
+
+- 読みやすい英語
+- 動かしながらわかりやすい文章構成
+- GitHub 形式の Diff も編集しやすい
+- 扱っているトピックも、出てくる順番がちょうどいい
+- とにかく英語が読みやすい
+- 何かプラットフォームがあればコーヒー代出すよ
+
+- 気になった点
+  - エディタ終了コマンドが`Ctrl + q`だけど、VS Code でやってるとショートカットでキーが奪われるな...
+    - 個別事象だし報告するようなことじゃないか
+- 3.
+  - clippy を突然使うように言われるけど、インストールされていない。インストール手順があるといいかも。
+    - https://github.com/rust-lang/rust-clippy#as-a-cargo-subcommand-cargo-clippy
+  - pedantic でチェックすると、下記の warning が出る
+    - その後すぐに self を使うようになるからか。（後で解消する旨、記述があると安心できる）
+
+```
+  warning: unused `self` argument
+ --> src/editor.rs:9:16
+  |
+9 |     pub fn run(&self) {
+  |                ^^^^^
+  |
+```
+
 ## chapter.1
 
 - `rustup` の設定
@@ -14,3 +41,14 @@
 - bit operation
 - error handling
 - match
+
+## chapter.3
+
+- idiomic code
+- separate files
+- static analysis by clippy
+- use escape sequences (VT100)
+- get terminal windows size
+- re-exporting struct at the top level (`pub use terminal::Terminal` in `main.rs`)
+- overflow
+- move cursor by arrow keys
