@@ -6,6 +6,7 @@
 - 扱っているトピックも、出てくる順番がちょうどいい
 - とにかく英語が読みやすい
 - 何かプラットフォームがあればコーヒー代出すよ
+- 2 章まで面白かったけど 3 章はターミナルの話が多かったな...長かったし...
 
 - 気になった点
   - エディタ終了コマンドが`Ctrl + q`だけど、VS Code でやってるとショートカットでキーが奪われるな...
@@ -52,3 +53,11 @@
 - re-exporting struct at the top level (`pub use terminal::Terminal` in `main.rs`)
 - overflow
 - move cursor by arrow keys
+
+## chapter. 4
+
+- Vector
+- #[derive(Default)]
+- if statement as value
+- command line arguments
+- multi byte characters
