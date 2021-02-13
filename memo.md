@@ -65,3 +65,10 @@
 ## chapter.5
 
 - Quit confirmation: duplicated semi-colon in editor.rs at l127?
+
+## chapter.6
+
+- closures (give callback function as an argument)
+- Clone trait
+- enum
+- PartialEq, Copy trait
