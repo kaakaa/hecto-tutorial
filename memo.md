@@ -61,3 +61,7 @@
 - if statement as value
 - command line arguments
 - multi byte characters
+
+## chapter.5
+
+- Quit confirmation: duplicated semi-colon in editor.rs at l127?
