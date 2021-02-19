@@ -72,3 +72,9 @@
 - Clone trait
 - enum
 - PartialEq, Copy trait
+
+## chapter.7
+
+- while..let
+- deferencing operator
+- big refactoring
