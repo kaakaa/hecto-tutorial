@@ -78,3 +78,7 @@
 - while..let
 - deferencing operator
 - big refactoring
+
+## appendix
+
+- https://www.diffchecker.com/
